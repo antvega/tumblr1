@@ -73,7 +73,7 @@ I would like to discuss how to pull down to reload page with updated photos.
 
 Here's a walkthrough of implemented user stories:
 
-<img src='X' title='tumblr1gif.gif' width='' alt='Video Walkthrough'/>
+<img src='tumblr1gif.gif' title='tumblr1gif' width='' alt='Video Walkthrough'/>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
