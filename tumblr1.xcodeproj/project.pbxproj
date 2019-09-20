@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		265142A53D77CCF490A0D1B8 /* Pods_tumblr1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E743697EC435F6803BC411F /* Pods_tumblr1.framework */; };
 		411A1CA27FEA5A1791631A0B /* Pods_tumblr1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69833779DF92701F3D48BDBC /* Pods_tumblr1UITests.framework */; };
+		504B829523330D3D0027A768 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B829423330D3D0027A768 /* PhotoDetailsViewController.swift */; };
 		5075B620232B0135001ABC70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5075B61F232B0135001ABC70 /* AppDelegate.swift */; };
 		5075B625232B0135001ABC70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5075B623232B0135001ABC70 /* Main.storyboard */; };
 		5075B627232B0136001ABC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5075B626232B0136001ABC70 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		0B2B346A53A1638A65F2FBB3 /* Pods-tumblr1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumblr1Tests.debug.xcconfig"; path = "Target Support Files/Pods-tumblr1Tests/Pods-tumblr1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		504B829423330D3D0027A768 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		5075B61C232B0135001ABC70 /* tumblr1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tumblr1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5075B61F232B0135001ABC70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5075B624232B0135001ABC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				5075B64F232B026C001ABC70 /* View Controllers */,
 				5075B61F232B0135001ABC70 /* AppDelegate.swift */,
 				5075B623232B0135001ABC70 /* Main.storyboard */,
+				504B829423330D3D0027A768 /* PhotoDetailsViewController.swift */,
 				5075B650232B1681001ABC70 /* PhotoCell.swift */,
 				5075B626232B0136001ABC70 /* Assets.xcassets */,
 				5075B628232B0136001ABC70 /* LaunchScreen.storyboard */,
@@ -397,6 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				504B829523330D3D0027A768 /* PhotoDetailsViewController.swift in Sources */,
 				5075B620232B0135001ABC70 /* AppDelegate.swift in Sources */,
 				5075B651232B1681001ABC70 /* PhotoCell.swift in Sources */,
 				5075B64E232B0251001ABC70 /* PhotosViewController.swift in Sources */,

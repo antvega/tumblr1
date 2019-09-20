@@ -14,6 +14,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
     var posts: [[String: Any]] = []
     
     @IBOutlet weak var tableView: UITableView!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,9 +68,27 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
             // 4.
             let url = URL(string: urlString)
             
+            
             cell.imageInCell.af_setImage(withURL: url!)
+            
         }
         return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! PhotoDetailsViewController
+        let cell = sender as! UITableViewCell
+        if let indexPath = tableView.indexPath(for: cell) {
+            let post = posts[indexPath.row]
+            if let photos = post["photos"] as? [[String: Any]] {
+                
+                let photo = photos[0]
+                let originalSize = photo["original_size"] as! [String: Any]
+                let urlString = originalSize["url"] as! String
+                vc.urlString = urlString
+            }
+        }
+        
     }
 //
 //    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
