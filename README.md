@@ -12,13 +12,13 @@
 
 **Tumblr** is a photo browsing app app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
-Time spent: **x** hours spent in total
+Time spent: 1.5 hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [] User can tab an image to view a larger image in a detail view (5pts)
+- [x] User can tab an image to view a larger image in a detail view (5pts)
 
 The following **stretch** user stories are implemented:
 
@@ -31,14 +31,14 @@ The following **additional** user stories are implemented:
 - [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
-
+- I'd like to discuss the infinite scrolling with my teammates.
 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='x' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='tumblr2gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
